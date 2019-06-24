@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="TianMao">
+    <output-path>F:/MC工程/Demo Server/Server/plugins</output-path>
+    <root id="archive" name="TianMao.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="TianMao" />
+    </root>
+  </artifact>
+</component>

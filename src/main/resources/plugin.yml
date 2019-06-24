@@ -1,0 +1,9 @@
+name: TianMao
+version: ${project.version}
+main: com.xzkj.tianmao.Main
+depend: [Vault]
+softdepend: [PlaceholderAPI, PlayerPoints, SQLibrary]
+authors: [XiaoZheng]
+description: 作者:小正QQ1419158026
+commands:
+  TM:
