@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6b9ae6ad-b8e6-4b58-b7ae-f7f41abd416d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/RegPapi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/RegPapi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xzkj/tianmao/Api.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xzkj/tianmao/Api.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/TMListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/TMListener.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/RegPapi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            <state relative-caret-position="322">
+              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/TMListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="47" column="40" lean-forward="true" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+            <state relative-caret-position="244">
+              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -145,11 +144,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/config.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/Cmd.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/TMListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/View.java" />
         <option value="$PROJECT_DIR$/src/main/resources/plugin.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/Api.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/RegPapi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/TMListener.java" />
       </list>
     </option>
   </component>
@@ -288,7 +287,7 @@
       <workItem from="1561287052228" duration="11545000" />
       <workItem from="1561325029420" duration="4564000" />
       <workItem from="1561330434893" duration="700000" />
-      <workItem from="1561335886809" duration="14381000" />
+      <workItem from="1561335886809" duration="14926000" />
     </task>
     <task id="LOCAL-00001" summary="版本1">
       <created>1561347203466</created>
@@ -311,15 +310,21 @@
       <option name="project" value="LOCAL" />
       <updated>1561355205119</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="增减Papi的返回值&#10;之前已经写好了忘记更新了">
+      <created>1561355570465</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1561355570465</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43523000" />
+    <option name="totallyTimeSpent" value="44068000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27360514" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -361,7 +366,8 @@
     <MESSAGE value="版本1" />
     <MESSAGE value="修复try导致的金钱不足也可以创建商店" />
     <MESSAGE value="修复无论金币是否充足都无法购买物品的BUG" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复无论金币是否充足都无法购买物品的BUG" />
+    <MESSAGE value="增减Papi的返回值&#10;之前已经写好了忘记更新了" />
+    <option name="LAST_COMMIT_MESSAGE" value="增减Papi的返回值&#10;之前已经写好了忘记更新了" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/bukkit/bukkit/1.12.2-R0.1-SNAPSHOT/bukkit-1.12.2-R0.1-20180712.012114-155-sources.jar!/org/bukkit/entity/HumanEntity.java">
@@ -465,16 +471,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/TMListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="47" column="40" lean-forward="true" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/Api.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1348">
@@ -509,8 +505,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/RegPapi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        <state relative-caret-position="322">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/TMListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

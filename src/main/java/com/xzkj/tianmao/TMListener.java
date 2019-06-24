@@ -14,6 +14,9 @@ import java.io.IOException;
 public class TMListener implements Listener {
     @EventHandler
     public void onClick(InventoryClickEvent e) {
+        if (e.getRawSlot() == -999) {
+            return;
+        }
         Player p = (Player) e.getWhoClicked();
         TMHashMap hashmap = new TMHashMap();
         Api api = hashmap.getData(p);
