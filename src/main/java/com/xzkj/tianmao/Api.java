@@ -48,6 +48,7 @@ public class Api {
                 Tool.log(">>>创建天猫店铺完成", p);
             } else {
                 Tool.log(">>>金钱不足!无法创建店铺!", p);
+                return;
             }
         } else {
             Tool.log(">>您已经创建过天猫店铺!", p);
