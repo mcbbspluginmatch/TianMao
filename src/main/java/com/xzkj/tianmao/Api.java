@@ -38,16 +38,16 @@ public class Api {
     public void setPlayerShop(Player p, String ShopName) {
         File PlayerShopFile = new File(MainData.PlayerShop.getAbsolutePath() + "\\" + p.getName() + ".yml");
         if (!PlayerShopFile.exists()) {
-            try {
-                if (MainData.TMEcecon.bankHas(p.getName(), Double.valueOf(MainData.TM_Create)).transactionSuccess()) {
+            if (MainData.TMEcecon.bankHas(p.getName(), Double.valueOf(MainData.TM_Create)).transactionSuccess()) {
+                try {
                     PlayerShopFile.createNewFile();//创建这个文件
-                    MainData.TMEcecon.bankWithdraw(p.getName(), MainData.TM_Create);
-                    Tool.log(">>>创建天猫店铺完成", p);
-                } else {
-                    Tool.log(">>>金钱不足!无法创建店铺!", p);
+                } catch (IOException e) {
+                    e.printStackTrace();
                 }
-            } catch (IOException e) {
-                e.printStackTrace();
+                MainData.TMEcecon.bankWithdraw(p.getName(), MainData.TM_Create);
+                Tool.log(">>>创建天猫店铺完成", p);
+            } else {
+                Tool.log(">>>金钱不足!无法创建店铺!", p);
             }
         } else {
             Tool.log(">>您已经创建过天猫店铺!", p);
