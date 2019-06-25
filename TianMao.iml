@@ -5,7 +5,6 @@
       <configuration>
         <autoDetectTypes>
           <platformType>BUKKIT</platformType>
-          <platformType>MCP</platformType>
         </autoDetectTypes>
       </configuration>
     </facet>
@@ -33,12 +32,12 @@
     <orderEntry type="library" name="[前置]Vault-1.7.10" level="project" />
     <orderEntry type="library" name="PlaceholderAPI-2.9.2" level="project" />
     <orderEntry type="library" name="PlayerPoints-2.1.5-MCRMB-20180715" level="project" />
-    <orderEntry type="library" name="minecraft_server.1.10" level="project" />
-    <orderEntry type="library" name="minecraft_server.1.11" level="project" />
-    <orderEntry type="library" name="minecraft_server.1.12" level="project" />
-    <orderEntry type="library" name="minecraft_server.1.13" level="project" />
-    <orderEntry type="library" name="minecraft_server.1.7.10" level="project" />
-    <orderEntry type="library" name="minecraft_server.1.8" level="project" />
-    <orderEntry type="library" name="minecraft_server.1.9" level="project" />
+    <orderEntry type="library" name="craftbukkit-1.10-R0.1-SNAPSHOT-latest" level="project" />
+    <orderEntry type="library" name="craftbukkit-1.11" level="project" />
+    <orderEntry type="library" name="craftbukkit-1.12" level="project" />
+    <orderEntry type="library" name="craftbukkit-1.13" level="project" />
+    <orderEntry type="library" name="craftbukkit-1.7.10-R0.1-20140808.005431-8" level="project" />
+    <orderEntry type="library" name="craftbukkit-1.8-R0.1-SNAPSHOT-latest" level="project" />
+    <orderEntry type="library" name="craftbukkit-1.9-R0.1-SNAPSHOT-latest" level="project" />
   </component>
 </module>

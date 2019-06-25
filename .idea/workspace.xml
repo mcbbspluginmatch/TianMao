@@ -1,29 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b9ae6ad-b8e6-4b58-b7ae-f7f41abd416d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/minecraft_server_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/minecraft_server_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/minecraft_server_1_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/minecraft_server_1_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/minecraft_server_1_7_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/minecraft_server_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/minecraft_server_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/TianMaoShop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/TianMao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/__TianMao.xml" afterDir="false" />
+    <list default="true" id="6b9ae6ad-b8e6-4b58-b7ae-f7f41abd416d" name="Default Changelist" comment="增减安装店铺积分进行店铺排须&#10;测试NMS以便于支持NBT">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/craftbukkit_1_10_R0_1_SNAPSHOT_latest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/craftbukkit_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/craftbukkit_1_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/craftbukkit_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/craftbukkit_1_7_10_R0_1_20140808_005431_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/craftbukkit_1_8_R0_1_SNAPSHOT_latest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/craftbukkit_1_9_R0_1_SNAPSHOT_latest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/nms/V1_10_R1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/nms/V1_11_R1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/nms/V1_12_R1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/nms/V1_13_R1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/nms/V1_7_R4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/nms/V1_8_R1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/nms/V1_9_R1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/utils/UtilBase64.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/minecraft_server_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/minecraft_server_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/minecraft_server_1_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/minecraft_server_1_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/minecraft_server_1_7_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/minecraft_server_1_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/minecraft_server_1_9.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TianMao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TianMao.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/Api.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/TMListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/TMListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xzkj/tianmao/Api.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xzkj/tianmao/Cmd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xzkj/tianmao/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xzkj/tianmao/MainData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xzkj/tianmao/RegPapi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xzkj/tianmao/TMHashMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xzkj/tianmao/TMListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xzkj/tianmao/Tool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xzkj/tianmao/View.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,34 +41,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="95" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/RegPapi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/Api.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+            <state relative-caret-position="299">
+              <caret line="73" column="31" lean-forward="true" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#getTianMaoShopTax#0;class#Api#0" />
@@ -76,44 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/TianMaoShop.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/View.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="90" column="50" lean-forward="true" selection-start-line="90" selection-start-column="50" selection-end-line="90" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/TMListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-147">
-              <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/Cmd.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/nms/V1_7_R4.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="368">
-              <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,19 +67,77 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/config.yml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/utils/UtilBase64.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="46">
+              <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+              <folding>
+                <element signature="e#107#108#0" expanded="true" />
+                <element signature="e#174#175#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
+        <entry file="jar://D:/CS/服务端核心/CraftBukkit 2018.08.05更新/craftbukkit-1.7.10-R0.1-20140808.005431-8.jar!/net/minecraft/server/v1_7_R4/NBTTagCompound.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="242">
+              <caret line="254" column="18" selection-start-line="254" selection-start-column="11" selection-end-line="254" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/nms/V1_8_R1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/nms/V1_9_R1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/nms/V1_10_R1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/nms/V1_11_R1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/nms/V1_12_R1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/nms/V1_13_R1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -175,6 +178,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/TianMaoShop.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/Api.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/nms/V1_13_R1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/utils/UtilBase64.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/nms/V1_7_R4.java" />
       </list>
     </option>
   </component>
@@ -187,10 +193,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1400" />
-    <option name="height" value="997" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -238,6 +243,22 @@
               <item name="TianMao" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianMao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TianMao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianMao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TianMao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -254,7 +275,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/CS/服务端核心/Vanilla 2018.08.05更新/minecraft_server.1.9.jar!/" />
+    <property name="last_opened_file_path" value="D:/CS/服务端核心/CraftBukkit 2018.08.05更新/craftbukkit-1.9-R0.1-SNAPSHOT-latest.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -319,7 +340,7 @@
       <workItem from="1561330434893" duration="700000" />
       <workItem from="1561335886809" duration="17529000" />
       <workItem from="1561386186968" duration="2742000" />
-      <workItem from="1561428637904" duration="1399000" />
+      <workItem from="1561428637904" duration="8649000" />
     </task>
     <task id="LOCAL-00001" summary="版本1">
       <created>1561347203466</created>
@@ -356,11 +377,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561356087561</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="增减安装店铺积分进行店铺排序&#10;测试NMS以便于支持NBT">
+      <created>1561430082391</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1561430082391</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50812000" />
+    <option name="totallyTimeSpent" value="58062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -384,8 +412,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005365" side_tool="true" visible="true" weight="0.09578107" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946353" visible="true" weight="0.09578107" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50107294" side_tool="true" visible="true" weight="0.12086659" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946353" weight="0.09578107" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -407,7 +435,8 @@
     <MESSAGE value="修复try导致的金钱不足也可以创建商店" />
     <MESSAGE value="修复无论金币是否充足都无法购买物品的BUG" />
     <MESSAGE value="增减Papi的返回值&#10;之前已经写好了忘记更新了" />
-    <option name="LAST_COMMIT_MESSAGE" value="增减Papi的返回值&#10;之前已经写好了忘记更新了" />
+    <MESSAGE value="增减安装店铺积分进行店铺排序&#10;测试NMS以便于支持NBT" />
+    <option name="LAST_COMMIT_MESSAGE" value="增减安装店铺积分进行店铺排序&#10;测试NMS以便于支持NBT" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/bukkit/bukkit/1.12.2-R0.1-SNAPSHOT/bukkit-1.12.2-R0.1-20180712.012114-155-sources.jar!/org/bukkit/entity/HumanEntity.java">
@@ -539,7 +568,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/TMListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-147">
-          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -559,7 +588,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/View.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
-          <caret line="90" column="50" lean-forward="true" selection-start-line="90" selection-start-column="50" selection-end-line="90" selection-end-column="50" />
+          <caret line="90" column="50" selection-start-line="90" selection-start-column="50" selection-end-line="90" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -569,18 +598,99 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/TianMaoShop.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/Api.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+        <state relative-caret-position="299">
+          <caret line="73" column="31" lean-forward="true" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getTianMaoShopTax#0;class#Api#0" />
             <element signature="method#getTianMaoShopSegment#0;class#Api#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/nms/V1_8_R1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/nms/V1_9_R1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/nms/V1_10_R1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/nms/V1_11_R1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/nms/V1_12_R1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/nms/V1_13_R1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/CS/服务端核心/CraftBukkit 2018.08.05更新/craftbukkit-1.7.10-R0.1-20140808.005431-8.jar!/net/minecraft/server/v1_7_R4/ItemStack.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="412" column="25" selection-start-line="412" selection-start-column="11" selection-end-line="412" selection-end-column="25" />
+          <folding>
+            <element signature="e#13996#13997#0" expanded="true" />
+            <element signature="e#14027#14028#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/CS/服务端核心/CraftBukkit 2018.08.05更新/craftbukkit-1.7.10-R0.1-20140808.005431-8.jar!/net/minecraft/server/v1_7_R4/NBTTagCompound.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="254" column="18" selection-start-line="254" selection-start-column="11" selection-end-line="254" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/utils/UtilBase64.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding>
+            <element signature="e#107#108#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzkj/tianmao/nms/V1_7_R4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -648,7 +758,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>minecraft_server.1.9</last-edited>
+          <last-edited>craftbukkit-1.9-R0.1-SNAPSHOT-latest</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
