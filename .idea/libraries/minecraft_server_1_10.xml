@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="minecraft_server.1.10">
+    <CLASSES>
+      <root url="jar://D:/CS/服务端核心/Vanilla 2018.08.05更新/minecraft_server.1.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/CS/服务端核心/Vanilla 2018.08.05更新/minecraft_server.1.10.jar!/" />
+    </SOURCES>
+  </library>
+</component>

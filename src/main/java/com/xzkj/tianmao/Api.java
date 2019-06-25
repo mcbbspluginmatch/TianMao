@@ -109,7 +109,30 @@ public class Api {
                 refl.add(datafl);
             }
         }
-        return refl;
+
+        TianMaoShop tempData;
+        int sizeFile = refl.size();
+        List<TianMaoShop> data = new ArrayList<>();
+        for (int i = 0; i < sizeFile; i++) {
+            YamlConfiguration datayml = YamlConfiguration.loadConfiguration(refl.get(i));
+            data.add(new TianMaoShop(datayml.getInt("商店积分"), datayml.getString("商店玩家名称")));
+        }
+        for (int i = 0; i < data.size() - 1; i++) {
+            for (int j = i + 1; j < data.size(); j++) {
+                if (data.get(i).Integral > data.get(j).Integral){
+                    tempData = data.get(i);
+                    data.set(i,data.get(j));
+                    data.set(j,tempData);
+                }
+            }
+        }
+
+        List<File> dataFe = new ArrayList<>();
+        for (int i = 0; i < data.size(); i++) {
+            File dataFiledata = new File(MainData.PlayerShop.getAbsolutePath() + "\\" + data.get(i).ShopPlayerName + ".yml");
+            dataFe.add(dataFiledata);
+        }
+        return dataFe;
     }
 
 

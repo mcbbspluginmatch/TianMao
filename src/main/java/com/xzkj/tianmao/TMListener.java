@@ -50,8 +50,6 @@ public class TMListener implements Listener {
                 playerShopYml.set("商店积分", integral);
                 playerShopYml.set("商店历史销量", history);
                 playerShopYml.set("商店商品数量", Quantity);
-
-
                 try {
                     playerShopYml.save(PlayerShopFile);
                 } catch (IOException ex) {
