@@ -1,5 +1,6 @@
 package com.xzkj.tianmao;
 
+import com.xzkj.tianmao.utils.ItemSerializerUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.entity.Player;
@@ -38,9 +39,11 @@ public class TMListener implements Listener {
             int PriceTax = CommodityPrice * api.getTianMaoShopTax(Bukkit.getPlayer(playerShop));
             if (MainData.TMEcecon.bankHas(p.getName(), PriceTax).transactionSuccess()){
                 ItemStack dataStack = playerShopYml.getItemStack("商品." + ShopItemName + ".Stack");
+                ItemStack[] Base64dataStack = ItemSerializerUtils.fromBase64(playerShopYml.getString("商品." + ShopItemName + ".Base64ItemStack"));
+
                 MainData.TMEcecon.bankWithdraw(p.getName(), PriceTax);
                 MainData.TMEcecon.depositPlayer(p, CommodityPrice);
-                p.getInventory().addItem(dataStack);
+                p.getInventory().addItem(Base64dataStack);
                 e.setCancelled(true);
                 playerShopYml.set("商品." + ShopItemName, null);
 

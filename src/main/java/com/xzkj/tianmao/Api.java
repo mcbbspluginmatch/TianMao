@@ -1,5 +1,6 @@
 package com.xzkj.tianmao;
 
+import com.xzkj.tianmao.utils.ItemSerializerUtils;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
@@ -80,6 +81,8 @@ public class Api {
         }
 
         ItemStack ShopSale = p.getItemInHand();
+        ItemStack[] Stacks64 = new ItemStack[] {ShopSale};
+        String Base64ItemStack = ItemSerializerUtils.toBase64(Stacks64);
         ItemMeta ShopSaleMeta = ShopSale.getItemMeta();
         YamlConfiguration playerShopYml = YamlConfiguration.loadConfiguration(PlayerShopFile);
         int ShopShop = playerShopYml.getInt("商店商品数量");
@@ -88,6 +91,7 @@ public class Api {
         playerShopYml.set("商品." +  ShopSale.getData().toString() + ".数量", ShopSale.getAmount() + ShopShopItem);
         playerShopYml.set("商品." +  ShopSale.getData().toString() + ".Stack", ShopSale);
         playerShopYml.set("商品." +  ShopSale.getData().toString() + ".Meta", ShopSaleMeta);
+        playerShopYml.set("商品." +  ShopSale.getData().toString() + ".Base64ItemStack", Base64ItemStack);
         playerShopYml.set("商品." +  ShopSale.getData().toString() + ".价格", price);
         playerShopYml.set("商品." +  ShopSale.getData().toString() + ".唯一标识", ShopSale.getData().toString());
         try {
