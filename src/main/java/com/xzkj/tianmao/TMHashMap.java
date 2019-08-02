@@ -4,7 +4,7 @@ import org.bukkit.entity.Player;
 
 import java.util.HashMap;
 
-public class TMHashMap {
+public class TMHashMap { // 这个类是怎么设计的 —— 754503921
     public static HashMap<String, Api> apiData = new HashMap<String, Api>();
     public static HashMap<String, View> viewData = new HashMap<String, View>();
     public Api getData(Player player) {

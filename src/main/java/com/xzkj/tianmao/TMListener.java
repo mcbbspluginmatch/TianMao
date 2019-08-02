@@ -22,8 +22,10 @@ public class TMListener implements Listener {
         TMHashMap hashmap = new TMHashMap();
         Api api = hashmap.getData(p);
         View view = hashmap.getDataView(p);
+        // 基于 title 的背包判断是不好的，建议更换为 InventoryView —— 754503921
         if (e.getView().getTitle().equalsIgnoreCase("§e[§2天猫商店§e]")) {
             String pShop = e.getCurrentItem().getItemMeta().getDisplayName();
+            // 不应在 InventoryClickEvent 中开启其他背包 —— 754503921
             view.openPlayerShop(p, Bukkit.getPlayer(pShop));
             e.setCancelled(true);
             return;
@@ -54,6 +56,7 @@ public class TMListener implements Listener {
                 playerShopYml.set("商店历史销量", history);
                 playerShopYml.set("商店商品数量", Quantity);
                 try {
+                    // 主线程上进行 IO 操作，可能造成服务器卡顿 —— 754503921
                     playerShopYml.save(PlayerShopFile);
                 } catch (IOException ex) {
                     ex.printStackTrace();
@@ -62,7 +65,8 @@ public class TMListener implements Listener {
 
 
             } else {
-                e.setCancelled(true);
+                e.setCancelled(true); // 既然哪个分支都要 setCancelled 为什么不在一开始就cancel了
+                // closeInventory 不应在 InventoryClickEvent 中被调用 —— 754503921
                 p.closeInventory();
                 Tool.log("金币不足无法购买!", p);
             }
