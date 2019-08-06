@@ -22,7 +22,7 @@ public class TMListener implements Listener {
         TMHashMap hashmap = new TMHashMap();
         Api api = hashmap.getData(p);
         View view = hashmap.getDataView(p);
-        // 基于 title 的背包判断是不好的，建议更换为 InventoryView —— 754503921
+        // 基于 title 的背包判断是不好的，建议更换为 InventoryHolder —— 754503921
         if (e.getView().getTitle().equalsIgnoreCase("§e[§2天猫商店§e]")) {
             String pShop = e.getCurrentItem().getItemMeta().getDisplayName();
             // 不应在 InventoryClickEvent 中开启其他背包 —— 754503921
