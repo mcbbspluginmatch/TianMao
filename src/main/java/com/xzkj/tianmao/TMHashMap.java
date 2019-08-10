@@ -7,6 +7,7 @@ import java.util.HashMap;
 public class TMHashMap { // 这个类是怎么设计的 —— 754503921
     public static HashMap<String, Api> apiData = new HashMap<String, Api>();
     public static HashMap<String, View> viewData = new HashMap<String, View>();
+    //在? 为什么不用静态方法 - a39
     public Api getData(Player player) {
         if (!apiData.containsKey(player.getName())) {
             apiData.put(player.getName(), new Api());

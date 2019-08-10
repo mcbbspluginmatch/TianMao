@@ -11,6 +11,7 @@ public class RegPapi extends PlaceholderHook {
     public String onPlaceholderRequest(Player player, String identifier) {
         TMHashMap hashmap = new TMHashMap();
         Api api = hashmap.getData(player);
+        //这样岂不是每进行一次papi请求都会读取一次文件 - a39
         File PlayerShopFile = new File(MainData.PlayerShop.getAbsolutePath() + "\\" + player.getName() + ".yml");
         YamlConfiguration playerShopYml = YamlConfiguration.loadConfiguration(PlayerShopFile);
         if (identifier.equalsIgnoreCase("PlayerTianMaoName")){

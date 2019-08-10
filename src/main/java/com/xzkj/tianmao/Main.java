@@ -29,6 +29,7 @@ public final class Main extends JavaPlugin {
         Tool.log("======TianMao======", null);
         Tool.log("Hello, 我是你们的小可爱!", null);
         Tool.log("下面开始为您预加载本插件!", null);
+        //请问 getDataFolder() 是在你的开发环境中不存在吗 - a39
         MainData.pluginPath = new File("./plugins", "\\TianMao");
         Tool.log("设置Plugin路径完成>>>" + MainData.pluginPath, null);
         MainData.PlayerShop = new File("./plugins/TianMao", "\\PlayerShop");
